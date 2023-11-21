@@ -12,6 +12,8 @@
 		171820E92B09F3A6002DF8DB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820E82B09F3A6002DF8DB /* Item.swift */; };
 		171820EB2B09F3A8002DF8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171820EA2B09F3A8002DF8DB /* Assets.xcassets */; };
 		171820EE2B09F3A8002DF8DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171820ED2B09F3A8002DF8DB /* Preview Assets.xcassets */; };
+		171820F72B09F3FE002DF8DB /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820F62B09F3FE002DF8DB /* splash.swift */; };
+		171820F92B09FAFA002DF8DB /* UserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820F82B09FAFA002DF8DB /* UserName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		171820E82B09F3A6002DF8DB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		171820EA2B09F3A8002DF8DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171820ED2B09F3A8002DF8DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		171820F62B09F3FE002DF8DB /* splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash.swift; sourceTree = "<group>"; };
+		171820F82B09FAFA002DF8DB /* UserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			children = (
 				171820E42B09F3A6002DF8DB /* MC2TEAM2App.swift */,
 				171820E62B09F3A6002DF8DB /* ContentView.swift */,
+				171820F62B09F3FE002DF8DB /* splash.swift */,
 				171820E82B09F3A6002DF8DB /* Item.swift */,
 				171820EA2B09F3A8002DF8DB /* Assets.xcassets */,
+				171820F82B09FAFA002DF8DB /* UserName.swift */,
 				171820EC2B09F3A8002DF8DB /* Preview Content */,
 			);
 			path = MC2TEAM2;
@@ -142,6 +148,8 @@
 			files = (
 				171820E72B09F3A6002DF8DB /* ContentView.swift in Sources */,
 				171820E92B09F3A6002DF8DB /* Item.swift in Sources */,
+				171820F72B09F3FE002DF8DB /* splash.swift in Sources */,
+				171820F92B09FAFA002DF8DB /* UserName.swift in Sources */,
 				171820E52B09F3A6002DF8DB /* MC2TEAM2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
