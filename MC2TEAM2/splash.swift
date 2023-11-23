@@ -15,14 +15,16 @@ struct splash: View {
     var body: some View {
         ZStack {
             // Background
-            Color(hex: 0x4AD294) // Change the background color here
+            Image("background")
+                .resizable()
+                .padding(-35) // Change the background color here
 
             // Logo
             Image("logo")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 400, height: 300)
-                .padding(.leading, 15.0)
+                .padding(.leading, 4.0)
                 .scaleEffect(animate ? 11 : 1)
                 .animation(Animation.easeIn(duration: 1))
                 .onAppear {
@@ -35,12 +37,13 @@ struct splash: View {
                 }
         }
         .edgesIgnoringSafeArea(.all)
+        
         .opacity(showSplash ? 1 : 0) // Change opacity value
         .animation(.default)
         .overlay(
             Group {
                 if showIntro {
-                    ContentView()
+                    homeScreenView()
                 }
             }
         )

@@ -14,6 +14,9 @@
 		171820EE2B09F3A8002DF8DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171820ED2B09F3A8002DF8DB /* Preview Assets.xcassets */; };
 		171820F72B09F3FE002DF8DB /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820F62B09F3FE002DF8DB /* splash.swift */; };
 		171820F92B09FAFA002DF8DB /* UserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820F82B09FAFA002DF8DB /* UserName.swift */; };
+		171820FB2B0DE33B002DF8DB /* homeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820FA2B0DE33B002DF8DB /* homeScreenView.swift */; };
+		171820FD2B0E3ADB002DF8DB /* HelloScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820FC2B0E3ADB002DF8DB /* HelloScreen.swift */; };
+		171820FF2B0F3E94002DF8DB /* cyberLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820FE2B0F3E94002DF8DB /* cyberLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		171820ED2B09F3A8002DF8DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		171820F62B09F3FE002DF8DB /* splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash.swift; sourceTree = "<group>"; };
 		171820F82B09FAFA002DF8DB /* UserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
+		171820FA2B0DE33B002DF8DB /* homeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenView.swift; sourceTree = "<group>"; };
+		171820FC2B0E3ADB002DF8DB /* HelloScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloScreen.swift; sourceTree = "<group>"; };
+		171820FE2B0F3E94002DF8DB /* cyberLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyberLearning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,10 @@
 				171820F62B09F3FE002DF8DB /* splash.swift */,
 				171820E82B09F3A6002DF8DB /* Item.swift */,
 				171820EA2B09F3A8002DF8DB /* Assets.xcassets */,
+				171820FA2B0DE33B002DF8DB /* homeScreenView.swift */,
 				171820F82B09FAFA002DF8DB /* UserName.swift */,
+				171820FC2B0E3ADB002DF8DB /* HelloScreen.swift */,
+				171820FE2B0F3E94002DF8DB /* cyberLearning.swift */,
 				171820EC2B09F3A8002DF8DB /* Preview Content */,
 			);
 			path = MC2TEAM2;
@@ -147,10 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				171820E72B09F3A6002DF8DB /* ContentView.swift in Sources */,
+				171820FD2B0E3ADB002DF8DB /* HelloScreen.swift in Sources */,
 				171820E92B09F3A6002DF8DB /* Item.swift in Sources */,
+				171820FF2B0F3E94002DF8DB /* cyberLearning.swift in Sources */,
 				171820F72B09F3FE002DF8DB /* splash.swift in Sources */,
 				171820F92B09FAFA002DF8DB /* UserName.swift in Sources */,
 				171820E52B09F3A6002DF8DB /* MC2TEAM2App.swift in Sources */,
+				171820FB2B0DE33B002DF8DB /* homeScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

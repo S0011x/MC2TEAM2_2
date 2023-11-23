@@ -11,88 +11,60 @@ import SwiftUI
 struct UserName: View {
     @State private var nameText = ""
     @State private var isButtonTapped = false
-    //send name to user goal
     var body: some View {
-        //NavigationStack{
-        ZStack(alignment: .bottom){
-
+        ZStack {
             
-            VStack{
-                Image("")
-                    .resizable()
-                    .aspectRatio(contentMode:.fit)
-                    .frame(width: 350,height: 350)
-                    .padding(.bottom,315)
-            }
-      
-            
-         
-            VStack{
-                Text(" شاركنا باسمك !")
-                    .font(.system(size: 16))
-                TextField("ادخل اسمك هنا", text: $nameText)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .frame(width: 330,height:48)
-                    .padding(.bottom,230)
-            }
-            
-            
-            
-            VStack{
- Text(" أهلا! حاب اتعرف عليك ")
-                
-                    .font(.system(size: 16))
-                    .bold()
-
-                    .padding(.bottom,620)
-                    .padding(.leading,10)
-                    
-            }
-        VStack{
-            Spacer()
-            Image("bottomEffect")
+            Image("background")
                 .resizable()
-                .aspectRatio(contentMode:.fit)
-                .frame(width: 1000)
-                .padding(.trailing,40)
-                .padding(.top,500)
+                .padding(-35)
+            
+            VStack{
+                
+            Spacer()
+            Text("شاركنا اسمك: ")
+                .font(
+                    Font.custom("Inter", size: 32)
+                        .weight(.bold)
+                )
+                .padding(.leading, 200)
+                .foregroundColor(.black)
+       
+        
+                TextField("ادخل اسمك هنا", text: $nameText)
+                    .foregroundColor(Color(hex: 0xABDFC7))
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .frame(width: 330,height:70)
+                    .padding(.bottom,180)
+                    .padding(.horizontal, 10)
+                    .padding(.bottom, 10)
+                    .cornerRadius(10)
+                    .shadow(color: .black.opacity(0.25), radius: 2, x: 1, y: 2)
+                    .multilineTextAlignment(.trailing)
+                
+                
+                Button(action: {
+                            // Add your button action here
+                        }){
+                            
+                 
+                            Text("التالي")
+                                .foregroundColor(.white)
+                                .font(.headline)
+                                .frame(width: 200, height: 58)
+                                .background(Color(red: 0.13, green: 0.58, blue: 0.56).opacity(0.89))
+                                .cornerRadius(8)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 8)
+                                        .inset(by: 0.5)
+                                        .stroke(Color(red: 0.13, green: 0.58, blue: 0.56), lineWidth: 1)
+                                )
+                        }
+                
+        }
             
         }
-        VStack {
-            
-   // NavigationLink("التالي",destination:ContentView())
- //   NavigationLink(destination: ContentView()) {
-                
-                Button("التالي", action:{
-                    isButtonTapped = true
-                })
-              
-                .font(.system(size: 20))
-                .foregroundColor(.white)
-                .padding()
-                .frame(width: 330 ,height: 48)
-                
-                .cornerRadius(24)
-                .padding(.bottom,50)
-                
-         //   }  //navigation
-    // .fullScreenCover(isPresented: $isButtonTapped, content: {
-            //ContentView(name:name )
-                           // })
-        }
-      //  .navigationBarTitle("المعلومات المالية")
-
-        
-    
-}
-    .padding()
-         //navStack
-
-      //  .navigationBarTitle(Text("Login"))
-        
     }
 }
-
 
 
 #Preview {
