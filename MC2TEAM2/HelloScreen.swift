@@ -48,7 +48,7 @@ struct HelloScreen: View {
                     }
             */
             
-            VStack {
+            VStack (spacing:20){
                Text("اختر ما الذي تريد تعلمه اليوم؟")
                    
                 

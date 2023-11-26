@@ -20,7 +20,7 @@ struct UserName: View {
                 .edgesIgnoringSafeArea(.all)
         
             
-            VStack{
+            VStack(spacing:30){
                 
             Spacer()
             Text("شاركنا اسمك: ")
@@ -31,17 +31,13 @@ struct UserName: View {
                 .padding(.leading, 200)
                 .foregroundColor(.black)
        
-        
-                TextField("ادخل اسمك هنا", text: $nameText)
-                    .foregroundColor(Color(hex: 0xABDFC7))
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .frame(width: 330,height:70)
-                    .padding(.bottom,180)
-                    .padding(.horizontal, 10)
-                    .padding(.bottom, 10)
-                    .cornerRadius(10)
-                    .shadow(color: .black.opacity(0.25), radius: 2, x: 1, y: 2)
+                
+                TextField("أكتب اسمك هنا", text: $nameText)
                     .multilineTextAlignment(.trailing)
+                    .frame(width: 330, height:36)
+                    .background(Color(hex: 0xABDFC7))
+                    .shadow(color:.black.opacity(0.25), radius: 2, x: 1, y: 2)
+                    .cornerRadius(8.0)
                 
                 
                 Button(action: {
@@ -62,7 +58,7 @@ struct UserName: View {
                                 )
                         }
                 
-        }
+            }.offset(x:0,y:-200)
             
         }
     }

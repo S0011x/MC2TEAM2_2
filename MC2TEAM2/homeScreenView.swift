@@ -26,7 +26,7 @@ struct homeScreenView: View {
             }
             VStack {
                 Spacer(minLength: 370)
-                RoundedRectangle(cornerRadius: 10.0)
+                RoundedRectangle(cornerRadius: 8.0)
                     .foregroundColor(Color(hex: 0xABDFC7))
                     .frame(width: 300, height: 255)
                 Spacer(minLength: 50)

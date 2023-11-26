@@ -35,7 +35,7 @@ struct cyberLearning: View {
                                 .font(.headline)
                                 .frame(width: 270, height: 140)
                                 .background(Color(red: 0.67, green: 0.87, blue: 0.78))
-                                .cornerRadius(30)
+                                .cornerRadius(8)
                                 .shadow(color: .black.opacity(0.25), radius: 2, x: 1, y: 2)
 
                                 
@@ -52,7 +52,7 @@ struct cyberLearning: View {
                                 .font(.headline)
                                 .frame(width: 270, height: 140)
                                 .background(Color(red: 1, green: 0.97, blue: 0.68))
-                                .cornerRadius(30)
+                                .cornerRadius(8)
                                 .shadow(color: .black.opacity(0.25), radius: 2, x: 1, y: 2)
 
                                 
@@ -68,8 +68,8 @@ struct cyberLearning: View {
                                 .foregroundColor(.black)
                                 .font(.headline)
                                 .frame(width: 270, height: 140)
-                                .background(Color(red: 0.5, green: 0.72, blue: 0.86))                                .cornerRadius(8)
-                                .cornerRadius(30)
+                                .background(Color(red: 0.5, green: 0.72, blue: 0.86))
+                                .cornerRadius(8)
                                 .shadow(color: .black.opacity(0.25), radius: 2, x: 1, y: 2)
                         }
                     

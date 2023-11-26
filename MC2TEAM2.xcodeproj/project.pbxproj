@@ -16,6 +16,8 @@
 		171820FB2B0DE33B002DF8DB /* homeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820FA2B0DE33B002DF8DB /* homeScreenView.swift */; };
 		171820FD2B0E3ADB002DF8DB /* HelloScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820FC2B0E3ADB002DF8DB /* HelloScreen.swift */; };
 		171820FF2B0F3E94002DF8DB /* cyberLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820FE2B0F3E94002DF8DB /* cyberLearning.swift */; };
+		4D8D94AB2B13237E0027F0DD /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8D94AA2B13237E0027F0DD /* MainScreen.swift */; };
+		4D8D94AD2B1327C90027F0DD /* FirstLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8D94AC2B1327C90027F0DD /* FirstLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		171820FA2B0DE33B002DF8DB /* homeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenView.swift; sourceTree = "<group>"; };
 		171820FC2B0E3ADB002DF8DB /* HelloScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloScreen.swift; sourceTree = "<group>"; };
 		171820FE2B0F3E94002DF8DB /* cyberLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyberLearning.swift; sourceTree = "<group>"; };
+		4D8D94AA2B13237E0027F0DD /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		4D8D94AC2B1327C90027F0DD /* FirstLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				171820E42B09F3A6002DF8DB /* MC2TEAM2App.swift */,
 				171820F62B09F3FE002DF8DB /* splash.swift */,
+				4D8D94AA2B13237E0027F0DD /* MainScreen.swift */,
+				4D8D94AC2B1327C90027F0DD /* FirstLevel.swift */,
 				171820E82B09F3A6002DF8DB /* Item.swift */,
 				171820EA2B09F3A8002DF8DB /* Assets.xcassets */,
 				171820FA2B0DE33B002DF8DB /* homeScreenView.swift */,
@@ -152,9 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8D94AB2B13237E0027F0DD /* MainScreen.swift in Sources */,
 				171820FD2B0E3ADB002DF8DB /* HelloScreen.swift in Sources */,
 				171820E92B09F3A6002DF8DB /* Item.swift in Sources */,
 				171820FF2B0F3E94002DF8DB /* cyberLearning.swift in Sources */,
+				4D8D94AD2B1327C90027F0DD /* FirstLevel.swift in Sources */,
 				171820F72B09F3FE002DF8DB /* splash.swift in Sources */,
 				171820F92B09FAFA002DF8DB /* UserName.swift in Sources */,
 				171820E52B09F3A6002DF8DB /* MC2TEAM2App.swift in Sources */,
