@@ -13,7 +13,9 @@ struct homeScreenView: View {
             
             Image("background")
                 .resizable()
-                .padding(-35)
+                .scaledToFill()
+                .edgesIgnoringSafeArea(.all)
+            
             
             VStack {
                 Image("logo")

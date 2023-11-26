@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		171820E52B09F3A6002DF8DB /* MC2TEAM2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820E42B09F3A6002DF8DB /* MC2TEAM2App.swift */; };
-		171820E72B09F3A6002DF8DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820E62B09F3A6002DF8DB /* ContentView.swift */; };
 		171820E92B09F3A6002DF8DB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820E82B09F3A6002DF8DB /* Item.swift */; };
 		171820EB2B09F3A8002DF8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171820EA2B09F3A8002DF8DB /* Assets.xcassets */; };
 		171820EE2B09F3A8002DF8DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171820ED2B09F3A8002DF8DB /* Preview Assets.xcassets */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		171820E12B09F3A6002DF8DB /* MC2TEAM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC2TEAM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		171820E42B09F3A6002DF8DB /* MC2TEAM2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC2TEAM2App.swift; sourceTree = "<group>"; };
-		171820E62B09F3A6002DF8DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		171820E82B09F3A6002DF8DB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		171820EA2B09F3A8002DF8DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171820ED2B09F3A8002DF8DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				171820E42B09F3A6002DF8DB /* MC2TEAM2App.swift */,
-				171820E62B09F3A6002DF8DB /* ContentView.swift */,
 				171820F62B09F3FE002DF8DB /* splash.swift */,
 				171820E82B09F3A6002DF8DB /* Item.swift */,
 				171820EA2B09F3A8002DF8DB /* Assets.xcassets */,
@@ -155,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171820E72B09F3A6002DF8DB /* ContentView.swift in Sources */,
 				171820FD2B0E3ADB002DF8DB /* HelloScreen.swift in Sources */,
 				171820E92B09F3A6002DF8DB /* Item.swift in Sources */,
 				171820FF2B0F3E94002DF8DB /* cyberLearning.swift in Sources */,

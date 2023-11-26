@@ -25,7 +25,7 @@ struct MC2TEAM2App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            splash()
         }
         .modelContainer(sharedModelContainer)
     }
