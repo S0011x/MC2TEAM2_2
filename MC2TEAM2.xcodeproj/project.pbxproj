@@ -18,6 +18,7 @@
 		171820FF2B0F3E94002DF8DB /* cyberLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171820FE2B0F3E94002DF8DB /* cyberLearning.swift */; };
 		4D8D94AB2B13237E0027F0DD /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8D94AA2B13237E0027F0DD /* MainScreen.swift */; };
 		4D8D94AD2B1327C90027F0DD /* FirstLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8D94AC2B1327C90027F0DD /* FirstLevel.swift */; };
+		77585BD32B1673FA00A80648 /* passwordGiudlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77585BD22B1673FA00A80648 /* passwordGiudlineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		171820FE2B0F3E94002DF8DB /* cyberLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyberLearning.swift; sourceTree = "<group>"; };
 		4D8D94AA2B13237E0027F0DD /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		4D8D94AC2B1327C90027F0DD /* FirstLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLevel.swift; sourceTree = "<group>"; };
+		77585BD22B1673FA00A80648 /* passwordGiudlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordGiudlineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				171820F82B09FAFA002DF8DB /* UserName.swift */,
 				171820FC2B0E3ADB002DF8DB /* HelloScreen.swift */,
 				171820FE2B0F3E94002DF8DB /* cyberLearning.swift */,
+				77585BD22B1673FA00A80648 /* passwordGiudlineView.swift */,
 				171820EC2B09F3A8002DF8DB /* Preview Content */,
 			);
 			path = MC2TEAM2;
@@ -162,6 +165,7 @@
 				171820FD2B0E3ADB002DF8DB /* HelloScreen.swift in Sources */,
 				171820E92B09F3A6002DF8DB /* Item.swift in Sources */,
 				171820FF2B0F3E94002DF8DB /* cyberLearning.swift in Sources */,
+				77585BD32B1673FA00A80648 /* passwordGiudlineView.swift in Sources */,
 				4D8D94AD2B1327C90027F0DD /* FirstLevel.swift in Sources */,
 				171820F72B09F3FE002DF8DB /* splash.swift in Sources */,
 				171820F92B09FAFA002DF8DB /* UserName.swift in Sources */,
